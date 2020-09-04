@@ -23,14 +23,20 @@ for this project.
 Keywords: Generative models, Generative Adversarial Networks (GAN), Image generation,
 Album cover
 
+## Archives
+* dataset:
+* gans:
+* 
+
 ## Contents
 In this README we show the different contents and experiments you can find in the repository:
 
-1. Dataset. We provide a multimodal dataset prepocessed and gathered for this specific task
+1. Dataset. We provide a multimodal dataset prepocessed and gathered for this specific task.
 1. Preliminary experiments:  
     1. Image reconstruction techiniques analysis
     1. Album artwork generation
 1. Album artwork generation based on audio
+
 
 ## Dataset
 To study album cover generation based on audio features we need:
