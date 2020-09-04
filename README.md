@@ -42,6 +42,7 @@ We gather two different datasets from MSD-I dataset from Oramas et al [[1]](#1) 
 Lastfm and Tagtraum) together with https://github.com/lastfm/coverartarchive-api to download the related album covers for each of the samples:
 * Covers-only dataset
  | nº
+ --------------|--------------
  Unique covers | 36,126
  Total covers | 50,084
  * Audio and Covers dataset
