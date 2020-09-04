@@ -49,7 +49,29 @@ Total covers  | 50,084
  
  
  * Audio and Covers dataset
+-|nº     
+-|-
+Total covers | 119,592
+Total audio  | 119,592
+Unique covers | 50,084
 
+
+You can download dataset from the link: https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing
+Specifications:
+* Both dataset have three splits: train, val and test. Each of the splits has 16 folder for each of the different music genres. Inside of each of the music genre folders 3 name types can be found: 
+    * Tracks that are only in musicbrainz. String format: musicbrainz_releasetrackid + '__' + musicbrainz_albumartistid Ex) e52a5405-eec0-4f2a-9f3c-0f800e1164e3-0__478ff859-34eb-457e-b9d2-dc74b5a372e9.npy
+    * Tracks that are only in MSD-I. Format: Ex) TRGGZMN12903CB9D8C.npy
+    * Tracks that are in both datasets. Format: MSD-I_id + '__' +  musicbrainz_releasetrackid + '__' + musicbrainz_albumartistid Ex) TRGOLLE128F14B187C__4d32b2a3-4096-4806-820b-17271b2b9f1b-0__b8f5d59e-4463-45b0-9b96-aac54ad7b327.npy
+
+* Album covers are in .jpg format, have a 128x128 resolution and 8 bit depth.
+* Audio features are in .npy format. Each sample has a size of 1160.
+
+* More info about preprocessing steps can be found in the document. In dataset folder there are two files:
+    * utils.py: utils functions used in the dataset during the implementation of the thesis.
+    * main.java: function used with https://github.com/lastfm/coverartarchive-api to download album covers.
+
+
+## Preliminary experiments
 
 
 ## References
