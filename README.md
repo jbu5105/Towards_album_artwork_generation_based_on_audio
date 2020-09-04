@@ -41,7 +41,8 @@ To study album cover generation based on audio features we need:
 We gather two different datasets from MSD-I dataset from Oramas et al [[1]](#1) and AcousticBrainz (which contains metadata and audio features from AllMusic, Discogs,
 Lastfm and Tagtraum) together with https://github.com/lastfm/coverartarchive-api to download the related album covers for each of the samples:
 * Covers-only dataset
-               | nº           
+
+        -      |      nº           
  --------------|--------------
  Unique covers | 36,126
  Total covers  | 50,084
