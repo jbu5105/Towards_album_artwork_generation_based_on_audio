@@ -27,8 +27,30 @@ Album cover
 In this README we show the different contents and experiments you can find in the repository:
 
 1. Dataset. We provide a multimodal dataset prepocessed and gathered for this specific task
-1. Image reconstruction techiniques analysis
-1. Album artwork generation
+1. Preliminary experiments:  
+  1. Image reconstruction techiniques analysis
+  1. Album artwork generation
 1. Album artwork generation based on audio
 
-### Dataset
+## Dataset
+To study album cover generation based on audio features we need:
+1. Album cover images
+1. Audio features
+1. Metadata with the music genre
+
+We gather two different datasets from MSD-I dataset from Oramas et al [[1]](#1) and AcousticBrainz (which contains metadata and audio features from AllMusic, Discogs,
+Lastfm and Tagtraum) together with https://github.com/lastfm/coverartarchive-api to download the related album covers for each of the samples:
+* Covers-only dataset
+* Audio and Covers dataset
+
+
+
+## References
+<a id="1">[1]</a> 
+S. Oramas, F. Barbieri, O. Nieto, and X. Serra, \Multimodal Deep Learning for Music
+Genre Classication," Transactions of the International Society for Music Information
+Retrieval, vol. 1, no. 1, pp. 4{21, sep 2018, [Online] Available: http://transactions.
+ismir.net/articles/10.5334/tismir.10/. Accessed on August 31, 2020.
+
+
+
