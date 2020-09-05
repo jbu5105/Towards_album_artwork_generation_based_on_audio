@@ -101,16 +101,21 @@ We analyze album artwork generation for VAEs and the three main loss functions i
 #### VAE
 Architecture:
 
-<img src='images/VAE_arch.JPG'  width=500 height=200>
+<img src='images/VAE_arch.JPG'  width=500 height=300>
 
 Results:
 
-<img src='images/vae_images.JPG' width=300 height=200>
+<img src='images/vae_images.JPG' width=300 height=300>
+
+Because we see that the outputs are not what we expected we do further analysis on how the model is placing samples in the latent space. We do a t-SNE transformation to transform 500 dimensions latent space into a 2D latent space. We show only three music genres for better visualization:
+
+<img src='images/vae_latent_1.JPG' width=300 height=250>
+
 
 #### GANs
 Architectures:
 
-<img src='images/GANs_arch.JPG' width=500 height=200>
+<img src='images/GANs_arch.JPG' width=500 height=300>
 
 
 ##### DCGAN
@@ -124,14 +129,19 @@ Results per iterations:
 
 <img src='images/lsgan_its.JPG'>
 
-Best results:
+Original size images:
+
+<img src='images/lsgan_imgs.JPG'>
+
 
 ##### WGAN-GP
 Results per iterations:
 
 <img src='images/wgan_its.JPG'>
 
-Best results:
+Original size images:
+
+<img src='images/wgan_imgs.JPG'>
 
 
 ## Album artwork generation based on audio samples
