@@ -75,12 +75,17 @@ You can download dataset from the link: https://drive.google.com/file/d/1lmqfxOL
 
 
 ## Preliminary experiments
-### Image reconstruction techniques
+we do not use standard evaluation metrics on generative models like
+Inception-Score(IS) or Frechet Inception Distance (FID)4 as we consider this task has
+a high creative and subjective component. We do not think any of these metrics will
+help us on finding the best of the models for album artwork generation. Therefore, to
+evaluate GANs performance, we manually check the output of the generative models
+each 100 iterations and select the model with the best output images.
+
+### Image reconstruction techniques (check ae_image_reconst_analysis.ipynb)
 We analize two AE architectures based on:
 1. Convolutional layers in the decoder
 1. Upsampling, padding and convolutional layers in the decoder
-
-Jupyter notebook: ae_image_reconst_analysis.ipynb
 
 #### Results
 Original images from test set:
@@ -98,7 +103,7 @@ Output images from AE with upsampling, padding and convolutional layers in the d
 ### Album artwork generation without audio conditioning
 We analyze album artwork generation for VAEs and the three main loss functions in GAN's state of the art: vanilla-GAN, LSGAN and WGAN. Further analysis can be found in the document we only show here the generated images:
 
-#### VAE
+#### VAE (check vae.ipynb)
 Architecture:
 
 <img src='images/VAE_arch.JPG'  width=500 height=300>
@@ -118,7 +123,9 @@ Architectures:
 <img src='images/GANs_arch.JPG' width=500 height=300>
 
 
-##### DCGAN
+##### DCGAN (check gans/dcgan/)
+Implemented following DCGAN pytorch tutorial: https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+
 Results per iterations:
 
 <img src='images/gan_its.JPG'>
