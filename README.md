@@ -87,13 +87,13 @@ We analize two AE architectures based on:
 
 ####Results
 Original images from test set:
-![](images/ae_original.jpg)
+<img src='images/ae_original.JPG' width=200 height=50>
 
 Output images from AE with transpose convolutional layers decoder:
-![](images/ae_trans.jpg)
+<img src='images/ae_trans.JPG' width=200 height=50>
 
-Output images from AE with upsampling, padding and convolutional layers in the decoder
-![](images/ae_conv.jpg)
+Output images from AE with upsampling, padding and convolutional layers in the decoder:
+<img src='images/ae_conv.JPG' width=200 height=50>
 
 ## References
 <a id="1">[1]</a> 
