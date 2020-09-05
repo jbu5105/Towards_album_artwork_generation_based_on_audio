@@ -9,10 +9,10 @@ and of course, regarding music albums, album covers play an important role. Comp
 Vision has unleashed powerful technologies for image generation,in the last decade, which
 have been used for lots of different applications. In particular, the main discoveries are
 Varational Autoencoders (VAEs) and Generative Adversarial Networks (GANs). Latest
-researches on these technologies have contributed to understand and improve them, ac-
-quiring high quality and complex image generation. In this thesis, we experiment with the
-latest image generation tools to achieve album artwork generation based on audio sam-
-ples. We first analyse image generation without audio conditioning for VAEs and the three
+researches on these technologies have contributed to understand and improve them, acquiring 
+high quality and complex image generation. In this thesis, we experiment with the
+latest image generation tools to achieve album artwork generation based on audio samples. 
+We first analyse image generation without audio conditioning for VAEs and the three
 GAN approaches: vanilla GAN, Least Squares GAN (LSGAN) and Wasserter GAN with
 gradient penalty (WGAN-GP). Finally, we try the best model, from these experiment but
 with audio conditioning. Despite being able to generate new album covers without audio
