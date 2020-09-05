@@ -1,6 +1,6 @@
 # Towards_album_artwork_generation_based_on_audio
 
-In this github repository I leave all experiments and analysis on my thesis "Towards album artwork generation based on audio", see on https://drive.google.com/file/d/1scFpsCY6XIzlZHmDzzWI2GryafkLyglI/view?usp=sharing
+In this github repository I leave all experiments and analysis on my thesis "Towards album artwork generation based on audio", see document on https://drive.google.com/file/d/1scFpsCY6XIzlZHmDzzWI2GryafkLyglI/view?usp=sharing
 
 ## Abstract
 Music albums nowadays, can not be conceived without its artwork. Since first used, album
@@ -23,6 +23,12 @@ for this project.
 Keywords: Generative models, Generative Adversarial Networks (GAN), Image generation,
 Album cover
 
+## License
+Code: under MIT license.
+
+[GitHub](http://github.com)
+
+Trained models (https://drive.google.com/file/d/1YfhbwC7Gvi1JzH0OEXtlF08yLPLupFIu/view?usp=sharing) and dataset under https://creativecommons.org/licenses/by/4.0/legalcode
 ## Contents
 In this README we show the different contents and experiments you can find in the repository:
 
