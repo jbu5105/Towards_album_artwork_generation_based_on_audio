@@ -145,6 +145,7 @@ Original size generated images:
 
 
 ##### WGAN-GP (check gans/wgan_gp.ipynb)
+Part of the code is taken from WGAN-GP paper code: https://github.com/caogang/wgan-gp/blob/master/
 Results per iterations:
 
 <img src='images/wgan_its.JPG'>
