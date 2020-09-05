@@ -26,9 +26,8 @@ Album cover
 ## License
 Code: under MIT license.
 
-[GitHub](http://github.com)
+Trained [models](https://drive.google.com/file/d/1YfhbwC7Gvi1JzH0OEXtlF08yLPLupFIu/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing) under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
-Trained models (https://drive.google.com/file/d/1YfhbwC7Gvi1JzH0OEXtlF08yLPLupFIu/view?usp=sharing) and dataset under https://creativecommons.org/licenses/by/4.0/legalcode
 ## Contents
 In this README we show the different contents and experiments you can find in the repository:
 
