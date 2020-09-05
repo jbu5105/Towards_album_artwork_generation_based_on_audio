@@ -80,7 +80,20 @@ You can download dataset from the link: https://drive.google.com/file/d/1lmqfxOL
 
 
 ## Preliminary experiments
+### Image reconstruction techniques
+We analize two AE architectures based on:
+1. Convolutional layers in the decoder
+1. Upsampling, padding and convolutional layers in the decoder
 
+####Results
+Original images from test set:
+![](images/ae_original.jpg)
+
+Output images from AE with transpose convolutional layers decoder:
+![](images/ae_trans.jpg)
+
+Output images from AE with upsampling, padding and convolutional layers in the decoder
+![](images/ae_conv.jpg)
 
 ## References
 <a id="1">[1]</a> 
