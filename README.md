@@ -100,14 +100,19 @@ We analyze album artwork generation for VAEs and the three main loss functions i
 
 #### VAE
 Architecture:
+<img src='images/vae_arch.JPG' width=100 height=100>
 
 Results:
+<img src='images/vae_images.JPG' width=100 height=100>
 
 #### GANs
 Architectures:
+<img src='images/GANs_arch.JPG' width=100 height=100>
+
 
 ##### DCGAN
 Results:
+
 
 ##### LSGAN
 Results:
