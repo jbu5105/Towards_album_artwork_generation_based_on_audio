@@ -80,7 +80,10 @@ Inception-Score(IS) or Frechet Inception Distance (FID)4 as we consider this tas
 a high creative and subjective component. We do not think any of these metrics will
 help us on finding the best of the models for album artwork generation. Therefore, to
 evaluate GANs performance, we manually check the output of the generative models
-each 100 iterations and select the model with the best output images.
+each 100 iterations and select the model with the best output images. 
+
+Experiments have been run in Google Colab, which has K80, T4, P4 and P100 NVIDIA
+GPUs due to memory constrains, except DCGAN experiments which have been run in a personal NVIDIA GeForce MX130.  We use Pytorch 1.6.0 as deep learning framework
 
 ### Image reconstruction techniques (check ae_image_reconst_analysis.ipynb)
 We analize two AE architectures based on:
@@ -131,22 +134,22 @@ Results per iterations:
 <img src='images/gan_its.JPG'>
 
 
-##### LSGAN
+##### LSGAN (check gans/lsgan.ipynb)
 Results per iterations:
 
 <img src='images/lsgan_its.JPG'>
 
-Original size images:
+Original size generated images:
 
 <img src='images/lsgan_imgs.JPG'>
 
 
-##### WGAN-GP
+##### WGAN-GP (check gans/wgan_gp.ipynb)
 Results per iterations:
 
 <img src='images/wgan_its.JPG'>
 
-Original size images:
+Original size generated images:
 
 <img src='images/wgan_imgs.JPG'>
 
