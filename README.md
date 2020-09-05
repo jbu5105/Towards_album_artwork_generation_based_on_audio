@@ -101,33 +101,33 @@ We analyze album artwork generation for VAEs and the three main loss functions i
 #### VAE
 Architecture:
 
-<img src='images/VAE_arch.JPG' width=200 height=100>
+<img src='images/VAE_arch.JPG'>
 
 Results:
 
-<img src='images/vae_images.JPG' width=200 height=100>
+<img src='images/vae_images.JPG'>
 
 #### GANs
 Architectures:
 
-<img src='images/GANs_arch.JPG' width=200 height=100>
+<img src='images/GANs_arch.JPG'>
 
 
 ##### DCGAN
 Results:
 
-<img src='images/gan_its.JPG' width=200 height=100>
+<img src='images/gan_its.JPG'>
 
 
 ##### LSGAN
 Results:
 
-<img src='images/lsgan_its.JPG' width=200 height=100>
+<img src='images/lsgan_its.JPG'>
 
 ##### WGAN-GP
 Results:
 
-<img src='images/wgan_its.JPG' width=200 height=100>
+<img src='images/wgan_its.JPG'>
 
 ## Album artwork generation based on audio samples
 ### Conditional VAE
