@@ -23,11 +23,6 @@ for this project.
 Keywords: Generative models, Generative Adversarial Networks (GAN), Image generation,
 Album cover
 
-## Archives
-* dataset:
-* gans:
-* 
-
 ## Contents
 In this README we show the different contents and experiments you can find in the repository:
 
@@ -80,7 +75,49 @@ You can download dataset from the link: https://drive.google.com/file/d/1lmqfxOL
 
 
 ## Preliminary experiments
+### Image reconstruction techniques
+We analize two AE architectures based on:
+1. Convolutional layers in the decoder
+1. Upsampling, padding and convolutional layers in the decoder
 
+Jupyter notebook: ae_image_reconst_analysis.ipynb
+
+#### Results
+Original images from test set:
+
+<img src='images/ae_original.JPG' width=500 height=100>
+
+Output images from AE with transpose convolutional layers decoder:
+
+<img src='images/ae_trans.JPG' width=500 height=100>
+
+Output images from AE with upsampling, padding and convolutional layers in the decoder:
+
+<img src='images/ae_conv.JPG' width=500 height=100>
+
+### Album artwork generation without audio conditioning
+We analyze album artwork generation for VAEs and the three main loss functions in GAN's state of the art: vanilla-GAN, LSGAN and WGAN. Further analysis can be found in the document we only show here the generated images:
+
+#### VAE
+Architecture:
+
+Results:
+
+#### GANs
+Architectures:
+
+##### DCGAN
+Results:
+
+##### LSGAN
+Results:
+
+##### WGAN-GP
+Results:
+
+## Album artwork generation based on audio samples
+### Conditional VAE
+### Conditional GANs
 
 ## References
 <a id="1">[1]</a> 
