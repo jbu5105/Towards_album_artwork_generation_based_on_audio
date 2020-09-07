@@ -162,7 +162,9 @@ Original size generated images:
 
 ## Album artwork generation based on audio samples
 ### Conditional VAE
+
 ### Conditional GANs
+
 
 ## References
 <a id="1">[1]</a> 
