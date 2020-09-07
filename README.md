@@ -29,9 +29,12 @@ Code: under MIT license.
 Trained [models](https://drive.google.com/file/d/1B9ytNHD8WvRf8IU9djL7D-yO12VGn-gR/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing) under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 ## How to run the jupyter notebooks
-Download the [models](https://drive.google.com/file/d/1B9ytNHD8WvRf8IU9djL7D-yO12VGn-gR/view?usp=sharing) and the [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing).
-Store them in your google drive account in the main directory.
-Now you you should be able to run all the scripts.
+Download the [models](https://drive.google.com/file/d/1B9ytNHD8WvRf8IU9djL7D-yO12VGn-gR/view?usp=sharing) and the [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing):
+
+1. Store models.zip unzipped in your google drive account main directory.
+1. Store multimodal_dataset.zip zipped in your google drive account main directory.
+
+Now you should be able to run all the experiments
 
 ## Contents
 In this README we show the different contents and experiments you can find in the repository. For further analysis check the [document](https://drive.google.com/file/d/1scFpsCY6XIzlZHmDzzWI2GryafkLyglI/view?usp=sharing):
@@ -119,7 +122,7 @@ We analyze album artwork generation for VAEs and the three main loss functions i
 #### VAE (check vae.ipynb)
 Architecture:
 
-<img src='images/VAE_arch.JPG'  width=500 height=300>
+<img src='images/VAE_arch.JPG'>
 
 Results:
 
@@ -133,7 +136,7 @@ Because we see that the outputs are not what we expected we do further analysis 
 #### GANs
 Architectures:
 
-<img src='images/GANs_arch.JPG' width=500 height=300>
+<img src='images/GANs_arch.JPG'>
 
 
 ##### DCGAN (check gans/dcgan/)
