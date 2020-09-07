@@ -26,10 +26,15 @@ Album cover
 ## License
 Code: under MIT license.
 
-Trained [models](https://drive.google.com/file/d/1YfhbwC7Gvi1JzH0OEXtlF08yLPLupFIu/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing) under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+Trained [models](https://drive.google.com/file/d/1B9ytNHD8WvRf8IU9djL7D-yO12VGn-gR/view?usp=sharing) and [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing) under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+## How to run the jupyter notebooks
+Download the [models](https://drive.google.com/file/d/1B9ytNHD8WvRf8IU9djL7D-yO12VGn-gR/view?usp=sharing) and the [dataset](https://drive.google.com/file/d/1lmqfxOLMEnBajFtq_r5xMQpEap1AEu43/view?usp=sharing).
+Store them in your google drive account in the main directory.
+Now you you should be able to run all the scripts.
 
 ## Contents
-In this README we show the different contents and experiments you can find in the repository:
+In this README we show the different contents and experiments you can find in the repository. For further analysis check the [document](https://drive.google.com/file/d/1scFpsCY6XIzlZHmDzzWI2GryafkLyglI/view?usp=sharing):
 
 1. Dataset. We provide a multimodal dataset prepocessed and gathered for this specific task.
 1. Preliminary experiments:  
@@ -164,6 +169,24 @@ Original size generated images:
 ### Conditional VAE
 
 ### Conditional GANs
+Arcihtecture:
+
+<img src='images/FiLM_generator.JPG'>
+
+#### Conditional LSGAN
+Results per iteration:
+
+<img src='images/clsgan_outputs.JPG'>
+
+We do futher experiments, here we show an experiment where each of the columns corresponds to the same noise vector input
+into the generator, and each of the rows corresponds to different audio feature vectors from the same genre:
+
+<img src='images/lsgan_anal2.JPG'>
+
+#### Conditional WGAN-GP
+Results per iteration:
+
+<img src='images/cwgan_outputs.JPG'>
 
 
 ## References
