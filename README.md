@@ -1,5 +1,5 @@
 # Towards_album_artwork_generation_based_on_audio
-
+ Jorge 
 In this github repository I leave all experiments and analysis on my thesis "Towards album artwork generation based on audio", see document on https://drive.google.com/file/d/1scFpsCY6XIzlZHmDzzWI2GryafkLyglI/view?usp=sharing
 
 ## Abstract
